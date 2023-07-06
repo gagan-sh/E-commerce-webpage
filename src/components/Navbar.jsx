@@ -11,13 +11,13 @@ export default function Navbar() {
             <div className='col-4'>
                 <div className='input-group'>
                     <input className='form-control search-right' placeholder='Search Gift, Cake and More...'></input>
-                    <span className='input-group-text search-left'><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <span className='input-group-text search-left'><i className="fa-solid fa-magnifying-glass"></i></span>
                 </div>
             </div>
             <div className='col-4'>
-               <div className='cart'>
-                <span><i class="fa-solid me-5 fa-cart-shopping"></i><i class="fa-solid fa-user"></i></span>
-               </div> 
+              <div className='cart'>
+                <span><i className="fa-solid me-5 fa-cart-shopping"></i><i className="fa-solid fa-user"></i></span>
+              </div> 
             </div>
         </div>
         <hr></hr>

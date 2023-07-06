@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { useState } from 'react';
 
+
 export default function Scrollpic() {
     const [activeIndex, setActiveIndex] = useState(0);
 
@@ -21,7 +22,8 @@ export default function Scrollpic() {
             description: 'Some quick example text for card 1',
         },
         {
-            imageSrc: 'cake2.jpg',
+            className: 'second-scrollpic',
+            imageSrc: 'https://mdbootstrap.com/img/Photos/Others/images/26.jpg',
             title: 'Card title 2',
             description: 'Some quick example text for card 2',
         },
@@ -43,8 +45,7 @@ export default function Scrollpic() {
                             type="button"
                             data-mdb-target="#carouselMultiItemExample"
                             data-mdb-slide="prev"
-                            onClick={handlePrevClick}
-                        >
+                            onClick={handlePrevClick}>
                             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span className="visually-hidden">Previous</span>
                         </button>
@@ -53,8 +54,7 @@ export default function Scrollpic() {
                             type="button"
                             data-mdb-target="#carouselMultiItemExample"
                             data-mdb-slide="next"
-                            onClick={handleNextClick}
-                        >
+                            onClick={handleNextClick}>
                             <span className="carousel-control-next-icon" aria-hidden="true"></span>
                             <span className="visually-hidden">Next</span>
                         </button>
